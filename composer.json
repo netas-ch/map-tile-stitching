@@ -1,0 +1,22 @@
+{
+    "name": "netas-ch/map-tile-stitching",
+    "description": "PHP Class to stitch map tiles from a map tile server together to one big image.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukas Buchs, www.netas.ch",
+            "email": "info@netas.ch",
+            "homepage": "https://www.netas.ch"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-curl": "*",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "netas\\lib\\maptilestitching\\": "src"
+        }
+    }
+}
